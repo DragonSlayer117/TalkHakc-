@@ -19,7 +19,6 @@
 </head>
 
 <body >
-@include('layouts.spinner')
 
    <!-- <div id="loading">
         <div class="loader simple-loader" >
@@ -32,41 +31,43 @@
 
 
 
-    <div class="app-body">
+    <div class="wrapper">
         @include('partials.menu')
-        <main class="main">
 
 
-            <div style="padding-top: 20px" class="container-fluid">
-                @if(session('message'))
-                    <div class="row mb-2">
-                        <div class="col-lg-12">
-                            <div class="alert alert-success" role="alert">{{ session('message') }}</div>
+                <div  class="main">
+                    @include('partials.navar')
+                    
+                    @yield('content')
+                    @if(session('message'))
+                        <div class="">
+                            <div class="">
+                                <div class="alert alert-success" role="alert">{{ session('message') }}</div>
+                            </div>
                         </div>
-                    </div>
-                @endif
-                @if($errors->count() > 0)
-                    <div class="alert alert-danger">
-                        <ul class="list-unstyled">
-                            @foreach($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
-                @yield('content')
-                
-
-
-        </main>
-        <form id="logoutform" action="{{ route('logout') }}" method="POST" style="display: none;">
-            {{ csrf_field() }}
-        </form>
+                    @endif
+                    @if($errors->count() > 0)
+                        <div class="alert alert-danger">
+                            <ul class="list-unstyled">
+                                @foreach($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                    
+    
+    
+            <form id="logoutform" action="{{ route('logout') }}" method="POST" style="display: none;">
+                {{ csrf_field() }}
+            </form>
+        </div>
     </div>
 
     <!--nuevos scripts-->
 
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/dashboard.js') }}"></script>
     
     @yield('scripts')
 </body>
