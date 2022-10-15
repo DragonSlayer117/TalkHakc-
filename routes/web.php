@@ -15,6 +15,10 @@ Route::get('/home', function () {
 
     return redirect()->route('admin.home');
 });
+Route::get('/offline', function () {
+    return view('vendor/laravelpwa/offline');
+    
+});
 
 Auth::routes(['register' => true]);
 

@@ -14,6 +14,11 @@
 
     @yield('styles')
 
+     <!--Laravel pwa directiva para compilarla-->
+     @laravelPWA
+
+
+
 </head>
 
 <body >
