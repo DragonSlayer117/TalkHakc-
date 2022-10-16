@@ -36,6 +36,7 @@ Route::group(['prefix' => 'profile', 'as' => 'profile.', 'namespace' => 'Auth', 
         Route::get('password', 'ChangePasswordController@edit')->name('password.edit');
         Route::post('password', 'ChangePasswordController@update')->name('password.update');
 
+
     }
 
 
@@ -46,3 +47,5 @@ Route::post('password', 'ResidentialCustomerController@store')->name('register.e
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('loguin', [App\Http\Controllers\HomeController::class, 'loguin'])->name('loguin');
+

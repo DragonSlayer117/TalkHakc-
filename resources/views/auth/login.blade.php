@@ -27,7 +27,7 @@
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="info-menu">
                         <ul>
-                            <li><a href="{{  }}">Login </a></li>
+                            <li><a href="{{ route('loguin') }}">Login </a></li>
                             <li><a href="#">Register </a></li>
                             <li><a href="#">Appinmnet </a></li>
                             <li><a href="#">Contact </a></li>
