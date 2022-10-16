@@ -123,7 +123,7 @@
                 <div class="col-12 col-lg-12 col-xxl-12 d-flex">
                     <div class="card flex-fill">
                         <div class="card-header">
-    
+
                             <h5 class="card-title mb-0">Names and Reports EPS</h5>
                         </div>
                         <table class="table table-hover my-0">
@@ -137,104 +137,21 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>ASOCIACIÓN INDÍGENA DEL CAUCA</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-success">Done</span></td>
-                                    <td class="d-none d-md-table-cell">Vanessa Tucker</td>
-                                </tr>
-                                <tr>
-                                    <td>ASOCIACIÓN INDÍGENA DEL CAUCA</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-danger">Cancelled</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>COMFENALCO  VALLE  E.P.S.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-success">Done</span></td>
-                                    <td class="d-none d-md-table-cell">Sharon Lessman</td>
-                                </tr>
-                                <tr>
-                                    <td>COMPENSAR   E.P.S.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">Vanessa Tucker</td>
-                                </tr>
-                                <tr>
-                                    <td>COOPERATIVA DE SALUD Y DESARROLLO INTEGRAL ZONA SUR ORIENTAL DE CARTAGENA</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-success">Done</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>E.P.S.  FAMISANAR  LTDA.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-success">Done</span></td>
-                                    <td class="d-none d-md-table-cell">Sharon Lessman</td>
-                                </tr>
-                                <tr>
-                                    <td>E.P.S.  SANITAS  S.A.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-success">Done</span></td>
-                                    <td class="d-none d-md-table-cell">Christina Mason</td>
-                                </tr>
-                                <tr>
-                                    <td>EPS SERVICIO OCCIDENTAL DE SALUD  S.A.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>EPS Y MEDICINA PREPAGADA SURAMERICANA S.A.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>MALLAMAS.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>FUNDACIÓN SALUD MIA EPS.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>NUEVA EPS S.A.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>SALUD  TOTAL  S.A.  E.P.S.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
-                                <tr>
-                                    <td>SALUDVIDA S.A .E.P.S.</td>
-                                    <td class="d-none d-xl-table-cell">01/01/2022</td>
-                                    <td class="d-none d-xl-table-cell">31/06/2022</td>
-                                    <td><span class="badge bg-warning">In progress</span></td>
-                                    <td class="d-none d-md-table-cell">William Harris</td>
-                                </tr>
+                                @foreach ($pqrs as $item)
+                                    <tr>
+                                        <td>{{ $item->eps->eps }}</td>
+                                        <td class="d-none d-xl-table-cell">{{ $item->created_at }}</td>
+                                        <td class="d-none d-xl-table-cell">{{ $item->updated_at }}</td>
+                                        @if ($item->status == 1)
+                                            <td><span class="badge bg-danger">Created</span></td>
+                                        @elseif ($item->status == 2)
+                                            <td><span class="badge bg-warning">Process</span></td>
+                                        @else
+                                            <td><span class="badge bg-success">Complet</span></td>
+                                        @endif
+                                        <td class="d-none d-md-table-cell">{{ $item->user->name }}</td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>

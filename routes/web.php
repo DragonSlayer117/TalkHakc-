@@ -49,3 +49,12 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('loguin', [App\Http\Controllers\HomeController::class, 'loguin'])->name('loguin');
 
+Route::group(['middleware' => ['auth']], function ()
+{
+    Route::get('/call', [App\Http\Controllers\CallController::class, 'index']);
+    Route::get('/eps/create', [App\Http\Controllers\EpsController::class, 'create']);
+    Route::post('/eps/created', [App\Http\Controllers\EpsController::class, 'store'])->name('EpsCreate');
+
+    Route::get('/pqrs/create', [App\Http\Controllers\PqrsController::class, 'create']);
+    Route::post('/pqrs/created', [App\Http\Controllers\PqrsController::class, 'store'])->name('PqrsCreate');
+});

@@ -70,6 +70,8 @@
 
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/dashboard.js') }}"></script>
+    <script src="{{ asset('js/engage-digital-click-to-call-config.js') }}"></script>
+    <script src="{{ asset('js/engage-digital-click-to-call.js') }}"></script>
     
     @yield('scripts')
 </body>

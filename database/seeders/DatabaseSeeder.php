@@ -28,5 +28,9 @@ class DatabaseSeeder extends Seeder
         ];
 
         User::insert($users);
+
+        $this->call(EpsSeeder::class);
+
+        $this->call(PqrsSeeder::class);
     }
 }
