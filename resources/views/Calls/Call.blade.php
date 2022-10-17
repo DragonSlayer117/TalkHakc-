@@ -50,18 +50,13 @@
                                                     <div class="card flex-fill w-100">
                                                         <div class="card-header">
                                     
-                                                            <h5 class="card-title mb-0">Numero a Llamar xxxx</h5>
+                                                            <h5 class="card-title mb-0">List Calls</h5>
                                                         </div>
                                                         <div class="card-body d-flex w-100">
                                                             <div class="align-self-center chart chart-lg">
-                                                                <div class="callButton">
-                                                                    <button id="engage-digital-click-to-call-btn"></button>
-                                                                  </div>
-                                                                  <div class="innervideo">
-                                                                    <div class="watermark">Remote Video</div><video class="remoteVideo" id="engage-digital-remote-video"
-                                                                      autoplay loop playsinline></video>
-                                                                  </div>
-                                                                  <div class="alert" style="width: 80%;" id='engage-digital-alert'></div>
+                                                                {{-- @for ($i = 0; $i < count($calls); $i++)
+                                                                    {{ $calls[$i] }}
+                                                                @endfor --}}
                                                             </div>
                                                         </div>
                                                     </div>
